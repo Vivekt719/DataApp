@@ -1,0 +1,118 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('<?php echo isset($_SESSION["background_image"]) ? htmlspecialchars($_SESSION["background_image"]) : "../images/default.jpg"; ?>');
+    background-size: cover;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styling */
+header {
+    background: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-bottom: 4px solid #0056b3;
+}
+
+header p {
+    margin: 0;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background: #f8f9fa;
+    border-top: 1px solid #ddd;
+}
+
+/* Centered Content */
+.center-text {
+    text-align: center;
+}
+
+/* Center text for welcome page */
+.center-text {
+    text-align: center;
+}
+
+/* Button Styling */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.button-secondary {
+    background-color: #6c757d;
+}
+
+.button-secondary:hover {
+    background-color: #5a6268;
+}

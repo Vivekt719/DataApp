@@ -1,0 +1,22 @@
+[28-Nov-2024 01:19:44 UTC] Requested Image: /images/2.jpg
+[28-Nov-2024 01:19:45 UTC] Requested Image: ../images/1.jpg
+[28-Nov-2024 01:19:47 UTC] Requested Image: /images/2.jpg
+[28-Nov-2024 01:19:53 UTC] Requested Image: /images/2.jpg
+[28-Nov-2024 01:19:54 UTC] Requested Image: ../images/1.jpg
+[28-Nov-2024 01:20:13 UTC] Requested Image: ../images/2.jpg
+[28-Nov-2024 01:20:17 UTC] Requested Image: ../images/2.jpg
+[28-Nov-2024 01:22:26 UTC] Requested Image: ../images/2.jpg
+[28-Nov-2024 03:34:34 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from C:\www\Project\project-root\list_users.php on line 2) in C:\www\Project\project-root\auth.php on line 2
+[28-Nov-2024 03:34:35 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from C:\www\Project\project-root\list_users.php on line 2) in C:\www\Project\project-root\auth.php on line 2
+[05-Dec-2024 21:03:32 UTC] PHP Warning:  Undefined array key "background_image" in C:\www\Project\project-root\register.php on line 9
+[05-Dec-2024 21:03:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'background_image' cannot be null in C:\www\Project\project-root\register.php:14
+Stack trace:
+#0 C:\www\Project\project-root\register.php(14): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\www\Project\project-root\register.php on line 14
+[05-Dec-2024 21:03:42 UTC] PHP Warning:  Undefined array key "background_image" in C:\www\Project\project-root\register.php on line 9
+[05-Dec-2024 21:03:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'background_image' cannot be null in C:\www\Project\project-root\register.php:14
+Stack trace:
+#0 C:\www\Project\project-root\register.php(14): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\www\Project\project-root\register.php on line 14
